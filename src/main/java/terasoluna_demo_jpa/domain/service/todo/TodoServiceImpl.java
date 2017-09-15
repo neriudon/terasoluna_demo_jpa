@@ -1,4 +1,4 @@
-package terasoluna_demo_jpa.domain.service;
+package terasoluna_demo_jpa.domain.service.todo;
 
 import java.util.Collection;
 import java.util.Date;
@@ -14,7 +14,7 @@ import org.terasoluna.gfw.common.message.ResultMessage;
 import org.terasoluna.gfw.common.message.ResultMessages;
 
 import terasoluna_demo_jpa.domain.model.Todo;
-import terasoluna_demo_jpa.domain.repository.TodoRepository;
+import terasoluna_demo_jpa.domain.repository.todo.TodoRepository;
 
 @Service
 @Transactional

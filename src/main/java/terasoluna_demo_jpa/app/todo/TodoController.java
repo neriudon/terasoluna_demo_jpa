@@ -23,7 +23,7 @@ import terasoluna_demo_jpa.app.todo.TodoForm.TodoCreate;
 import terasoluna_demo_jpa.app.todo.TodoForm.TodoDelete;
 import terasoluna_demo_jpa.app.todo.TodoForm.TodoFinish;
 import terasoluna_demo_jpa.domain.model.Todo;
-import terasoluna_demo_jpa.domain.service.TodoService;
+import terasoluna_demo_jpa.domain.service.todo.TodoService;
 
 @Controller
 @RequestMapping("todo")

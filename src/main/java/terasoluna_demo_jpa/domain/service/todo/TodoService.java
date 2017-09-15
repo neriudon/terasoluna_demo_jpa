@@ -1,4 +1,4 @@
-package terasoluna_demo_jpa.domain.service;
+package terasoluna_demo_jpa.domain.service.todo;
 
 import java.util.Collection;
 

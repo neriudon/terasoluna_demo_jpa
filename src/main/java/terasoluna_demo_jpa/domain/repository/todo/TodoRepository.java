@@ -1,4 +1,4 @@
-package terasoluna_demo_jpa.domain.repository;
+package terasoluna_demo_jpa.domain.repository.todo;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
