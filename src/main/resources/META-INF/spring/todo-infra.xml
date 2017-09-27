@@ -9,9 +9,9 @@
         http://www.springframework.org/schema/data/jpa http://www.springframework.org/schema/data/jpa/spring-jpa.xsd
     ">
 
-    <import resource="classpath:/META-INF/spring/terasoluna_demo_jpa-env.xml" />
+    <import resource="classpath:/META-INF/spring/todo-env.xml" />
 
-    <jpa:repositories base-package="terasoluna_demo_jpa.domain.repository" />
+    <jpa:repositories base-package="todo.domain.repository" />
 
     <bean id="jpaVendorAdapter"
         class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter">
@@ -21,7 +21,7 @@
 
     <bean id="entityManagerFactory"
         class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
-        <property name="packagesToScan" value="terasoluna_demo_jpa.domain.model" />
+        <property name="packagesToScan" value="todo.domain.model" />
         <property name="dataSource" ref="dataSource" />
         <property name="jpaVendorAdapter" ref="jpaVendorAdapter" />
         <property name="jpaPropertyMap">

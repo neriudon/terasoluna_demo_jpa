@@ -1,4 +1,4 @@
-package terasoluna_demo_jpa.domain.model;
+package todo.domain.model;
 
 import java.io.Serializable;
 import java.util.Date;
